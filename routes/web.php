@@ -1,10 +1,10 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Home\HomeController@welcome')->name('welcome');
 
-Auth::routes();
+Route::get('register/', 'Home\HomeController@register')->name('register');
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');

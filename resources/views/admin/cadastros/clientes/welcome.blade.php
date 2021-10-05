@@ -87,14 +87,14 @@
             border-bottom: 2px solid #D74819;
         }
 
-        .form button {
+        .form a {
             margin-top: 60px;
             width: 200px;
             background-color: #03A696;
             border: 0;
         }
 
-        .form button:hover {
+        .form a:hover {
             width: 200px;
             background-color: #D74819;
             border: 0;
@@ -150,8 +150,8 @@
                             <input type="date" name="name" class="form-control" placeholder="Data de nascimento*">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Continuar <i
-                                    class="fas fa-chevron-right"></i></button>
+                            <a href="{{ route('register') }}" class="btn btn-primary">Continuar <i
+                                    class="fas fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </form>
