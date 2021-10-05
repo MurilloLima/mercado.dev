@@ -66,7 +66,7 @@
             text-align: center;
             justify-items: center;
             justify-content: center;
-            padding: 20px 50px;
+            padding: 5px 50px;
         }
 
         .form input {
